@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@import "./styles/main.scss";
+
+.k-form, .k-form-inline {
+    color: #222 !important;
+}
