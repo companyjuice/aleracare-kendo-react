@@ -114,6 +114,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "start2": "node scripts/start.js",
+    "build2": "node scripts/build.js",
+    "test2": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
