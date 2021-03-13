@@ -2,7 +2,7 @@
   "name": "aleracare-kendo-react",
   "version": "0.1.2",
   "private": true,
-  "homepage": "http://telerik.github.io/react-coffee-warehouse",
+  "homepage": "",
   "dependencies": {
     "@progress/kendo-data-query": "^1.5.4",
     "@progress/kendo-date-math": "^1.5.0",
