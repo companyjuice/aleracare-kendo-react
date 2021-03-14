@@ -13,6 +13,7 @@ const items = [
     { name: 'planning', iconSvg: 'planning-icon', route: '/planning' },
     { name: 'profile', iconSvg: 'profile-icon', route: '/profile' },
     { name: 'sales', iconSvg: 'planning-icon', route: '/sales' },
+    { name: 'stocks', iconSvg: 'dashboard-icon', route: '/stocks' },
     { separator: true },
     { name: 'info', iconSvg: 'info-icon', route: '/info' }
 ];

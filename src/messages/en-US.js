@@ -6,6 +6,7 @@ export const enMessages = {
         "planning": "Planning",
         "profile": "Profile",
         "sales": "Sales",
+        "stocks": "Stocks",
         "info": "Info",
         "language": "Language",
         "trend": "Trend",

@@ -10,7 +10,8 @@ import { NavigationRow, Navigation } from '../components/Navigation';
 import { AddRemoveSymbol } from '../components/AddRemoveSymbol';
 import { StockList } from '../components/StockList';
 import { ChangeSector } from '../components/SectorChange';
-import styles from './stock-page.module.scss';
+
+import styles from '../styles/stock-page.module.scss';
 
 export const StockPage = () => {
     return (

@@ -5,6 +5,7 @@ export const frMessages = {
         "dashboard": "Tableau de bord",
         "planning": "Planification",
         "sales": "Sales",
+        "stocks": "Stocks",
         "info": "Info",
         "profile": "Profil",
         "language": "Langue",

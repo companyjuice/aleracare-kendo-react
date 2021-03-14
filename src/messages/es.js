@@ -5,6 +5,7 @@ export const esMessages = {
         "dashboard": "Tablero",
         "planning": "Planificación",
         "sales": "Sales",
+        "stocks": "Stocks",
         "info": "Informacion",
         "profile": "Perfil",
         "language": "Idioma",

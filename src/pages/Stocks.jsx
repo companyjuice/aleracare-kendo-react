@@ -25,15 +25,12 @@ const Stocks = () => {
         <UserProfile />
       </Route>
       <Route path="/heatmap">
-        <Header />
         <HeatmapPage />
       </Route>
       <Route path="/virtualized">
-        <Header />
         <VirtualizedPage />
       </Route>
       <Route path={["/stocks/:symbol?"]}  >
-        <Header />
         <StockPage />
       </Route>
       {locations.pathname === '/' ? <Redirect to="/stocks" /> : null}
