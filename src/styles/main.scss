@@ -1,5 +1,27 @@
-// Default theme variables here
-
 @import "./variables";
+@import "./bootstrap";
 @import "./typography";
-@import "./common";
+@import "./kendo";
+
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-family: $roboto;
+}
+
+main {
+  background-color: rgba(236, 238, 239, 0.5);
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.k-form, .k-form-inline {
+  color: #222 !important;
+}
+
+.add-new .k-select {
+  display: none;
+}
