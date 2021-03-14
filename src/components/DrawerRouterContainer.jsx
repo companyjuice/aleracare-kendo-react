@@ -49,7 +49,7 @@ class DrawerRouterContainer extends React.Component {
     }
 
     handleClick = () => {
-        this.setState((e) => ({expanded: !e.expanded}));
+        this.setState((e) => ({expanded: !e.expanded})); // toggle
     }
 
     handleSelect = (e) => {
