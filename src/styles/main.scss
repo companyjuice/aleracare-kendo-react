@@ -2,7 +2,9 @@
 @import "./bootstrap";
 @import "./typography";
 @import "./kendo";
+@import "./common";
 
+/*
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +19,7 @@ main {
 a:hover {
   text-decoration: none;
 }
+*/
 
 .k-form, .k-form-inline {
   color: #222 !important;
