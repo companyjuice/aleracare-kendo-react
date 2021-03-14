@@ -11,7 +11,7 @@ import Sales from './pages/Sales.jsx'
 import Info from './pages/Info.jsx'
 
 import DrawerRouterContainer from './components/DrawerRouterContainer.jsx'
-import { AppContext } from './AppContext'
+import { AppContext } from './context/AppContext'
 import { countries } from './resources/countries'
 import { IntlProvider, load, LocalizationProvider, loadMessages } from '@progress/kendo-react-intl'
 
@@ -96,6 +96,7 @@ const App = () => {
                   <Route exact={true} path="/planning" component={Planning} />
                   <Route exact={true} path="/profile" component={Profile} />
                   <Route exact={true} path="/sales" component={Sales} />
+                  <Route exact={true} path="/stocks" component={Stocks} />
                   <Route exact={true} path="/info" component={Info} />
                 </Switch>
               </DrawerRouterContainer>

@@ -11,7 +11,7 @@ import { Grid, Column, ColumnMenu } from './../components/Grid';
 import { Chart } from './../components/Chart';
 import { FullNameCell, FlagCell, OnlineCell, RatingCell, EngagementCell, CurrencyCell } from './../components/GridCells';
 
-import { AppContext } from './../AppContext'
+import { AppContext } from '../context/AppContext'
 
 import { employees } from './../resources/employees';
 import { teams } from './../resources/teams';

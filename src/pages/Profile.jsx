@@ -14,7 +14,7 @@ import { Upload } from './../components/form/Upload';
 import { RadioGroup } from './../components/form/RadioGroup';
 import { Switch } from './../components/form/Switch';
 
-import { AppContext } from './../AppContext'
+import { AppContext } from '../context/AppContext'
 
 import { countries } from './../resources/countries';
 import { teams } from './../resources/teams';

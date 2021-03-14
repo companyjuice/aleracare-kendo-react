@@ -8,7 +8,7 @@ import { useLocalization } from '@progress/kendo-react-intl'
 
 import { locales } from './../resources/locales'
 
-import { AppContext } from './../AppContext'
+import { AppContext } from '../context/AppContext'
 
 import headerBg from '../assets/header-bg.png'
 import userAvatar from '../assets/user-avatar.jpg'
