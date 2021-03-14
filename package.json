@@ -26,6 +26,7 @@
     "@progress/kendo-react-progressbars": "^4.4.0",
     "@progress/kendo-react-ripple": "^4.4.0",
     "@progress/kendo-react-scheduler": "^4.4.0",
+    "@progress/kendo-react-tooltip": "^4.4.0",
     "@progress/kendo-react-treeview": "^4.4.0",
     "@progress/kendo-react-upload": "^4.4.0",
     "@progress/kendo-theme-default": "^4.32.0",
