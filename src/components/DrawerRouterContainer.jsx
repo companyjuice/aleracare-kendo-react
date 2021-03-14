@@ -52,9 +52,8 @@ class DrawerRouterContainer extends React.Component {
         this.setState((e) => ({expanded: !e.expanded}));
     }
 
-
     handleSelect = (e) => {
-        this.setState({selectedId: e.itemIndex, expanded: false});
+        this.setState({selectedId: e.itemIndex, expanded: true}); // auto-contract/expand drawer
         this.props.history.push(e.itemTarget.props.route);
     }
 
